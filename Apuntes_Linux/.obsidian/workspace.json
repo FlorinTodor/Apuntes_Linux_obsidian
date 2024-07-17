@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bienvenido.md",
+                "file": "Comandos_básicos/2.Descriptores de archivo.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bienvenido.md",
+                "file": "Comandos_básicos/2.Descriptores de archivo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bienvenido.md",
+                "file": "Comandos_básicos/2.Descriptores de archivo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bienvenido.md"
+                "file": "Comandos_básicos/2.Descriptores de archivo.md"
               }
             }
           }
@@ -162,6 +162,9 @@
   },
   "active": "e49adb7abf9b41eb",
   "lastOpenFiles": [
-    "Bienvenido.md"
+    "Comandos_básicos/1.Control del flujo stderr-stdout, operadores y procesos en segundo plano.md",
+    "Comandos_básicos/2.Descriptores de archivo.md",
+    "Bienvenido.md",
+    "Comandos_básicos"
   ]
 }
