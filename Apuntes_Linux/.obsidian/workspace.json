@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Comandos_básicos/2.Descriptores de archivo.md",
+                "file": "Comandos_básicos/3.Permisos.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fd6746c1af2609e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Comandos_básicos/3.Permisos.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "285206eff1b833fa",
@@ -99,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Comandos_básicos/2.Descriptores de archivo.md",
+                "file": "Comandos_básicos/3.Permisos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Comandos_básicos/2.Descriptores de archivo.md",
+                "file": "Comandos_básicos/3.Permisos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Comandos_básicos/2.Descriptores de archivo.md"
+                "file": "Comandos_básicos/3.Permisos.md"
               }
             }
           }
@@ -157,12 +170,27 @@
       "canvas:Crear nuevo lienzo": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false
+      "command-palette:Abrir paleta de comandos": false,
+      "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "e49adb7abf9b41eb",
+  "active": "fd6746c1af2609e2",
   "lastOpenFiles": [
+    "sortspec.md",
+    "sortspec 1.md",
+    "ENLACES.md",
+    "Comandos_básicos/3.Permisos.md",
+    "Comandos_básicos/IMAGES/Pasted image 20240718000738.png",
+    "Comandos_básicos/IMAGES/Pasted image 20240718000702.png",
+    "Comandos_básicos/IMAGES/Pasted image 20240718000646.png",
+    "Comandos_básicos/IMAGES/Pasted image 20240717234650.png",
+    "Comandos_básicos/IMAGES/Pasted image 20240717234446.png",
+    "Comandos_básicos/0.Varios.md",
+    "Comandos_básicos/IMAGES/Pasted image 20240717230657.png",
     "Comandos_básicos/1.Control del flujo stderr-stdout, operadores y procesos en segundo plano.md",
+    "PDFS",
+    "Comandos_básicos/IMAGES",
+    "Comandos_básicos/IMAGES/Pasted image 20240717222149.png",
     "Comandos_básicos/2.Descriptores de archivo.md",
     "Bienvenido.md",
     "Comandos_básicos"
