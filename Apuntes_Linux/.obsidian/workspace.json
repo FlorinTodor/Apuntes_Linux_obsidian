@@ -4,46 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f7294aaca9e199ac",
+        "id": "b397dae6e93699c8",
         "type": "tabs",
         "children": [
           {
-            "id": "e49adb7abf9b41eb",
+            "id": "02f286b6fc361c9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Comandos_básicos/3.Permisos.md",
+                "file": "Linux/0.Varios.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "fd6746c1af2609e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Comandos_básicos/4. Estructura de directorios del sistema.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "285206eff1b833fa",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "537dcff1f43e9550",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ]
@@ -112,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Linux/0.Varios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Linux/0.Varios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Linux/0.Varios.md"
+              }
             }
           }
         ]
@@ -170,26 +147,41 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "537dcff1f43e9550",
+  "active": "02f286b6fc361c9b",
   "lastOpenFiles": [
-    "Comandos_básicos/4. Estructura de directorios del sistema.md",
-    "Comandos_básicos/3.Permisos.md",
+    "Linux/6.Búsquedas a nivel de sistema.md",
+    "Linux/0.Varios.md",
+    "Captura desde 2024-07-19 23-55-16.png",
+    "Linux/IMAGES/Pasted image 20240720001300.png",
+    "Linux/IMAGES/Pasted image 20240718000738.png",
+    "Linux/IMAGES/Pasted image 20240718000646.png",
+    "Linux/IMAGES/Pasted image 20240717234446.png",
+    "Linux/IMAGES/Pasted image 20240717222149.png",
+    "Linux/IMAGES/Pasted image 20240719132047.png",
+    "Linux/IMAGES/Pasted image 20240719233215.png",
+    "Linux/IMAGES/Pasted image 20240719233737.png",
+    "Linux/IMAGES/Pasted image 20240719234159.png",
+    "PDFS/7z2407-linux-x64.tar.xz",
+    "PDFS/Sin confirmar 847652.crdownload",
+    "NVIM/Atajos.md",
+    "NVIM",
+    "Kitty/Usos.md",
+    "Kitty/IMAGES",
+    "BASH/0.Básicos.md",
+    "Kitty",
+    "BASH/IMAGES",
+    "BASH",
+    "Linux/5.Temux.md",
+    "PDFS/chuleta1.pdf",
+    "Linux/3.Permisos.md",
+    "Linux/2.Descriptores de archivo.md",
+    "Linux/1.Control del flujo stderr-stdout, operadores y procesos en segundo plano.md",
+    "PDFS/bash-redirections-cheat-sheet.pdf",
+    "PDFS/Tmux-Cheat-Sheet.pdf",
+    "Linux/4. Estructura de directorios del sistema.md",
     "sortspec.md",
     "sortspec 1.md",
     "ENLACES.md",
-    "Comandos_básicos/IMAGES/Pasted image 20240718000738.png",
-    "Comandos_básicos/IMAGES/Pasted image 20240718000702.png",
-    "Comandos_básicos/IMAGES/Pasted image 20240718000646.png",
-    "Comandos_básicos/IMAGES/Pasted image 20240717234650.png",
-    "Comandos_básicos/IMAGES/Pasted image 20240717234446.png",
-    "Comandos_básicos/0.Varios.md",
-    "Comandos_básicos/IMAGES/Pasted image 20240717230657.png",
-    "Comandos_básicos/1.Control del flujo stderr-stdout, operadores y procesos en segundo plano.md",
-    "PDFS",
-    "Comandos_básicos/IMAGES",
-    "Comandos_básicos/IMAGES/Pasted image 20240717222149.png",
-    "Comandos_básicos/2.Descriptores de archivo.md",
-    "Bienvenido.md",
-    "Comandos_básicos"
+    "Bienvenido.md"
   ]
 }
