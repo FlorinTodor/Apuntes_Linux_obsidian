@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/0.Varios.md",
+                "file": "Kitty/Usos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/0.Varios.md",
+                "file": "Kitty/Usos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/0.Varios.md",
+                "file": "Kitty/Usos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/0.Varios.md"
+                "file": "Kitty/Usos.md"
               }
             }
           }
@@ -149,8 +149,12 @@
   },
   "active": "02f286b6fc361c9b",
   "lastOpenFiles": [
-    "Linux/6.Búsquedas a nivel de sistema.md",
+    "Kitty/IMAGES/Pasted image 20240724141008.png",
+    "Kitty/IMAGES/Pasted image 20240719220013.png",
+    "Kitty/IMAGES/Pasted image 20240719215954.png",
+    "Kitty/Usos.md",
     "Linux/0.Varios.md",
+    "Linux/6.Búsquedas a nivel de sistema.md",
     "Captura desde 2024-07-19 23-55-16.png",
     "Linux/IMAGES/Pasted image 20240720001300.png",
     "Linux/IMAGES/Pasted image 20240718000738.png",
@@ -159,13 +163,10 @@
     "Linux/IMAGES/Pasted image 20240717222149.png",
     "Linux/IMAGES/Pasted image 20240719132047.png",
     "Linux/IMAGES/Pasted image 20240719233215.png",
-    "Linux/IMAGES/Pasted image 20240719233737.png",
-    "Linux/IMAGES/Pasted image 20240719234159.png",
     "PDFS/7z2407-linux-x64.tar.xz",
     "PDFS/Sin confirmar 847652.crdownload",
     "NVIM/Atajos.md",
     "NVIM",
-    "Kitty/Usos.md",
     "Kitty/IMAGES",
     "BASH/0.Básicos.md",
     "Kitty",
