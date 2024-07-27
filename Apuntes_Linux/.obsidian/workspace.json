@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/7.Netcat y Ncat.md",
+                "file": "BASH/0.Básicos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/7.Netcat y Ncat.md",
+                "file": "BASH/0.Básicos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/7.Netcat y Ncat.md",
+                "file": "BASH/0.Básicos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/7.Netcat y Ncat.md"
+                "file": "BASH/0.Básicos.md"
               }
             }
           }
@@ -147,40 +147,44 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "66341588e99407da",
+  "active": "02f286b6fc361c9b",
   "lastOpenFiles": [
-    "Linux/6.Búsquedas a nivel de sistema.md",
-    "Linux/7.Netcat y Ncat.md",
-    "Linux/IMAGES/Pasted image 20240727004313.png",
-    "Linux/3.Permisos.md",
-    "Linux/1.Control del flujo stderr-stdout, operadores y procesos en segundo plano.md",
-    "Linux/8.SSH.md",
-    "Linux/IMAGES/Pasted image 20240727003332.png",
-    "Linux/IMAGES/Pasted image 20240727003316.png",
+    "BASH/Proyecto2_Desafiando la ruleta de un casino/0.Comienzo.md",
+    "BASH/Proyecto1_Creando un buscador/0.Comienzo.md",
+    "BASH/Proyecto2_Desafiando la ruleta de un casino/IMAGES",
+    "BASH/Proyecto2_Desafiando la ruleta de un casino",
+    "Linux/4. Estructura de directorios del sistema.md",
+    "BASH/Proyecto1_Creando un buscador/IMAGES",
+    "BASH/Proyecto1_Creando un buscador",
     "Linux/0.Varios.md",
-    "Linux/IMAGES/Pasted image 20240727003154.png",
-    "Linux/IMAGES/Pasted image 20240727002632.png",
-    "Linux/IMAGES/Pasted image 20240726182409.png",
-    "Linux/IMAGES/Pasted image 20240726182058.png",
-    "Linux/IMAGES/Pasted image 20240726181744.png",
+    "Linux/3.Permisos.md",
+    "BASH/0.Básicos.md",
+    "Linux/10.Git y Github.md",
+    "Linux/IMAGES/Pasted image 20240727154226.png",
+    "Linux/IMAGES/Pasted image 20240727153854.png",
+    "Linux/IMAGES/Pasted image 20240727153820.png",
+    "Linux/IMAGES/Pasted image 20240727153735.png",
+    "Linux/IMAGES/Pasted image 20240727151703.png",
+    "Linux/IMAGES/Pasted image 20240727151629.png",
+    "Linux/9.Tareas Cron.md",
+    "Linux/IMAGES/Pasted image 20240727135436.png",
+    "Linux/IMAGES/Pasted image 20240727135141.png",
+    "Linux/8.SSH.md",
+    "Linux/IMAGES/Pasted image 20240727134802.png",
+    "Linux/IMAGES/Pasted image 20240727134643.png",
+    "Linux/7.Netcat y Ncat.md",
+    "Linux/6.Búsquedas a nivel de sistema.md",
+    "Linux/1.Control del flujo stderr-stdout, operadores y procesos en segundo plano.md",
     "Kitty/Usos.md",
-    "Kitty/IMAGES/Pasted image 20240724141008.png",
-    "Kitty/IMAGES/Pasted image 20240719220013.png",
     "PDFS/7z2407-linux-x64.tar.xz",
     "PDFS/Sin confirmar 847652.crdownload",
     "NVIM/Atajos.md",
     "NVIM",
     "Kitty/IMAGES",
-    "BASH/0.Básicos.md",
     "Kitty",
     "BASH/IMAGES",
-    "BASH",
     "Linux/5.Temux.md",
-    "PDFS/chuleta1.pdf",
     "Linux/2.Descriptores de archivo.md",
-    "PDFS/bash-redirections-cheat-sheet.pdf",
-    "PDFS/Tmux-Cheat-Sheet.pdf",
-    "Linux/4. Estructura de directorios del sistema.md",
     "sortspec.md",
     "sortspec 1.md",
     "ENLACES.md",
