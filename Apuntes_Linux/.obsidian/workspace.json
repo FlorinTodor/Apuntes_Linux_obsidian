@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BASH/0.Básicos.md",
+                "file": "BASH/Proyecto1_Creando un buscador/0.Comienzo.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BASH/0.Básicos.md",
+                "file": "BASH/Proyecto1_Creando un buscador/0.Comienzo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BASH/0.Básicos.md",
+                "file": "BASH/Proyecto1_Creando un buscador/0.Comienzo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BASH/0.Básicos.md"
+                "file": "BASH/Proyecto1_Creando un buscador/0.Comienzo.md"
               }
             }
           }
@@ -149,8 +149,13 @@
   },
   "active": "02f286b6fc361c9b",
   "lastOpenFiles": [
-    "BASH/Proyecto2_Desafiando la ruleta de un casino/0.Comienzo.md",
+    "BASH/Proyecto1_Creando un buscador/bundle.js",
+    "BASH/Proyecto1_Creando un buscador/htbmachines.sh~",
+    "BASH/Proyecto1_Creando un buscador/IMAGES/Pasted image 20240727213914.png",
+    "BASH/0.Básicos.md",
     "BASH/Proyecto1_Creando un buscador/0.Comienzo.md",
+    "BASH/Proyecto1_Creando un buscador/htbmachines.sh",
+    "BASH/Proyecto2_Desafiando la ruleta de un casino/0.Comienzo.md",
     "BASH/Proyecto2_Desafiando la ruleta de un casino/IMAGES",
     "BASH/Proyecto2_Desafiando la ruleta de un casino",
     "Linux/4. Estructura de directorios del sistema.md",
@@ -158,7 +163,6 @@
     "BASH/Proyecto1_Creando un buscador",
     "Linux/0.Varios.md",
     "Linux/3.Permisos.md",
-    "BASH/0.Básicos.md",
     "Linux/10.Git y Github.md",
     "Linux/IMAGES/Pasted image 20240727154226.png",
     "Linux/IMAGES/Pasted image 20240727153854.png",
@@ -171,7 +175,6 @@
     "Linux/IMAGES/Pasted image 20240727135141.png",
     "Linux/8.SSH.md",
     "Linux/IMAGES/Pasted image 20240727134802.png",
-    "Linux/IMAGES/Pasted image 20240727134643.png",
     "Linux/7.Netcat y Ncat.md",
     "Linux/6.Búsquedas a nivel de sistema.md",
     "Linux/1.Control del flujo stderr-stdout, operadores y procesos en segundo plano.md",
@@ -180,9 +183,6 @@
     "PDFS/Sin confirmar 847652.crdownload",
     "NVIM/Atajos.md",
     "NVIM",
-    "Kitty/IMAGES",
-    "Kitty",
-    "BASH/IMAGES",
     "Linux/5.Temux.md",
     "Linux/2.Descriptores de archivo.md",
     "sortspec.md",
