@@ -244,13 +244,13 @@ function getMachinesCertificate(){
   difficulty="$1"
   certificate="$2"
 
-  result_checker="$(cat bundle.js | grep "like: " -B 6| awk '{print $NF}'| cat bundle.js | grep "like: " -B 7 | grep -vE "id:|sku:|ip:|so:|skills:" | grep -i $certificate -B 2| grep -i $difficulty -B 2 | grep "name: "| awk '{print $NF}'| tr -d '"' | tr -d ',' | column)"
+  result_checker="$(cat bundle.js | grep "like: " -B 10 | grep -i oscp -B 7 | grep -vE "id:|sku:|so:|skills:|youtube:|resulta:|ip:" | grep -i $certificate -B 3 | grep -i $difficulty -B 3| grep "name: "| awk '{print $NF}'| tr -d '"'| tr -d ',' | column)"
   
   if [ "$result_checker" ]; then
 
     echo -e "\n ${purpleColour}[+] ${grayColour}Mostramos las máquinas cuya dificultad es ${yellowColour}${difficulty^} ${grayColour}y que son para prepararse el certificado ${blueColour}${certificate^}:${endColour}\n"
 
-    cat bundle.js | grep "like: " -B 6| awk '{print $NF}'| cat bundle.js | grep "like: " -B 7 | grep -vE "id:|sku:|ip:|so:|skills:" | grep -i "ejpt" -B 2| grep -i "fácil" -B 2 | grep "name: "| awk '{print $NF}'| tr -d '"' | tr -d ',' | column
+   cat bundle.js | grep "like: " -B 10 | grep -i oscp -B 7 | grep -vE "id:|sku:|so:|skills:|youtube:|resulta:|ip:" | grep -i $certificate -B 3 | grep -i $difficulty -B 3| grep "name: "| awk '{print $NF}'| tr -d '"'| tr -d ',' | column 
 
   else 
 
