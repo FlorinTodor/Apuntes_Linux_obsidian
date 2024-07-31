@@ -222,35 +222,36 @@ function getMachinesCertificate(){
 
  function getOSCertificate(){
   so="$1"
+  so_upper=${so^}
   certificate="$2"
+  certificate_upper=${certificate^}
 
   result_checker="$(cat bundle.js | grep "like: " -B 6| awk '{print $NF}'| cat bundle.js | grep "like: " -B 7 | grep -vE "id:|sku:|ip:|dificultad:|skills:" | grep -i $certificate -B 2 | grep -i $so -B 2 | grep "name: "| awk '{print $NF}'| tr -d '"' | tr -d ',' | column)"
 
   if [ "$result_checker" ]; then
 
-    echo -e "\n ${purpleColour}[+] ${grayColour}Las máquinas cuyo Sistema operativo es ${yellowColour}${so^} ${grayColour}y que son para prepararse el certificado ${blueColour}${certificate^}  ${grayColour}son ${endColour}\n\n"
+    echo -e "\n ${purpleColour}[+] ${grayColour}Las máquinas cuyo Sistema operativo es ${yellowColour}$so_upper ${grayColour}y que son para prepararse el certificado ${blueColour}$certificate_upper ${grayColour}son ${endColour}\n\n"
 
     cat bundle.js | grep "like: " -B 6| awk '{print $NF}'| cat bundle.js | grep "like: " -B 7 | grep -vE "id:|sku:|ip:|dificultad:|skills:" | grep -i "$certificate" -B 2| grep -i $so -B 2 | grep "name: "| awk '{print $NF}'| tr -d '"' | tr -d ',' | column
   else 
 
     
-    echo -e "\n ${redColour}[!] ${grayColour}No existe ninguna máquina para el certificado de ${yellowColour}${certificate^^} ${grayColour} con Sistema operativo ${yellowColour} $so${endColour}"
+    echo -e "\n ${redColour}[!] ${grayColour}No existe ninguna máquina para el certificado de ${yellowColour}${certificate^^} ${grayColour} con Sistema operativo ${yellowColour} ${so^}${endColour}"
     
   fi
  }
-
- function getDifficultyCertificate(){
+function getDifficultyCertificate(){
   
   difficulty="$1"
   certificate="$2"
 
-  result_checker="$(cat bundle.js | grep "like: " -B 10 | grep -i oscp -B 7 | grep -vE "id:|sku:|so:|skills:|youtube:|resulta:|ip:" | grep -i $certificate -B 3 | grep -i $difficulty -B 3| grep "name: "| awk '{print $NF}'| tr -d '"'| tr -d ',' | column)"
+  result_checker="$(cat bundle.js | grep "like: " -B 10 | grep -vE "id:|sku:|so:|skills:|youtube:|resulta:|ip:" | grep -i "$certificate" -B 3 | grep -i "$difficulty" -B 3| grep "name: "| awk '{print $NF}'| tr -d '"'| tr -d ',' | column)"
   
   if [ "$result_checker" ]; then
 
     echo -e "\n ${purpleColour}[+] ${grayColour}Mostramos las máquinas cuya dificultad es ${yellowColour}${difficulty^} ${grayColour}y que son para prepararse el certificado ${blueColour}${certificate^}:${endColour}\n"
 
-   cat bundle.js | grep "like: " -B 10 | grep -i oscp -B 7 | grep -vE "id:|sku:|so:|skills:|youtube:|resulta:|ip:" | grep -i $certificate -B 3 | grep -i $difficulty -B 3| grep "name: "| awk '{print $NF}'| tr -d '"'| tr -d ',' | column 
+   cat bundle.js | grep "like: " -B 10 | grep -vE "id:|sku:|so:|skills:|youtube:|resulta:|ip:" | grep -i "$certificate" -B 3 | grep -i "$difficulty" -B 3| grep "name: "| awk '{print $NF}'| tr -d '"'| tr -d ',' | column
 
   else 
 
@@ -259,7 +260,6 @@ function getMachinesCertificate(){
   fi
     
  }
-
 # Indicadores
 #
 # Vamos a usarlo para ver si el usuario ha hecho uso del parámetro m, en vez de hacerlo en el propio getopts
@@ -291,6 +291,16 @@ done
 
 if [ $parameter_counter -eq 1 ]; then
   searchMachine "$machineName"
+elif [ $chivato_os -eq 1 ] && [ $chivato_certificate ]; then
+
+  getOSCertificate "$so" "$certificate"
+
+elif [ $chivato_difficulty -eq 1 ] && [ $chivato_certificate -eq 1 ]; then
+  getDifficultyCertificate "$difficulty" "$certificate"
+
+
+elif [ $chivato_os -eq 1 ] && [ $chivato_difficulty -eq 1 ]; then 
+  getOSDifficultyMachines "$difficulty" "$so" 
 elif [ $parameter_counter -eq 2 ]; then
   updateFiles
 elif [ $parameter_counter -eq 3 ]; then
@@ -311,18 +321,9 @@ elif [ $parameter_counter -eq 7 ]; then
   getMachinesSkills "$skill"
 elif [ $parameter_counter -eq 8 ]; then
 
-  getMachinesCertificate "$certficate"
-
-elif [ $chivato_os -eq 1 ] && [ $chivato_certificate ]; then
-
-  getOSCertificate "$so" "$certificate"
-
-elif [ $chivato_difficulty -eq 1 ] && [ $chivato_certificate -eq 1 ]; then
-  getDifficultyCertificate "$difficulty" "$certificate"
+  getMachinesCertificate "$certificate"
 
 
-elif [ $chivato_os -eq 1 ] && [ $chivato_difficulty -eq 1 ]; then 
-  getOSDifficultyMachines "$difficulty" "$so" 
 
 else
  helpPanel
