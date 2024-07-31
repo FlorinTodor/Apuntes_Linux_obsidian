@@ -226,7 +226,7 @@ function getMachinesCertificate(){
   certificate="$2"
   certificate_upper=${certificate^}
 
-  result_checker="$(cat bundle.js | grep "like: " -B 6| awk '{print $NF}'| cat bundle.js | grep "like: " -B 7 | grep -vE "id:|sku:|ip:|dificultad:|skills:" | grep -i $certificate -B 2 | grep -i $so -B 2 | grep "name: "| awk '{print $NF}'| tr -d '"' | tr -d ',' | column)"
+  result_checker="$(cat bundle.js | grep "like: " -B 6| awk '{print $NF}'| cat bundle.js | grep "like: " -B 7 | grep -vE "id:|sku:|ip:|dificultad:|skills:" | grep -i "$certificate"  -B 2 | grep -i "$so" -B 2 | grep "name: "| awk '{print $NF}'| tr -d '"' | tr -d ',' | column)"
 
   if [ "$result_checker" ]; then
 
