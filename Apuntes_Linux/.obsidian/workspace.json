@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BASH/Proyecto1_Creando un buscador/0.Comienzo.md",
+                "file": "Linux/10.Git y Github.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BASH/Proyecto1_Creando un buscador/0.Comienzo.md",
+                "file": "Linux/10.Git y Github.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BASH/Proyecto1_Creando un buscador/0.Comienzo.md",
+                "file": "Linux/10.Git y Github.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BASH/Proyecto1_Creando un buscador/0.Comienzo.md"
+                "file": "Linux/10.Git y Github.md"
               }
             }
           }
@@ -149,42 +149,43 @@
   },
   "active": "02f286b6fc361c9b",
   "lastOpenFiles": [
+    "Pasted image 20240804225439.png",
+    "Linux/0.Varios.md",
+    "Linux/9.Tareas Cron.md",
+    "Linux/10.Git y Github.md",
+    "Linux/8.SSH.md",
+    "Linux/7.Netcat y Ncat.md",
+    "Linux/6.Búsquedas a nivel de sistema.md",
+    "NVIM/Atajos.md",
+    "Linux/1.Control del flujo stderr-stdout, operadores y procesos en segundo plano.md",
+    "Linux/5.Temux.md",
+    "Linux/4. Estructura de directorios del sistema.md",
+    "Linux/3.Permisos.md",
+    "Linux/2.Descriptores de archivo.md",
+    "BASH/0.Básicos.md",
+    "BASH/Proyecto2_Desafiando la ruleta de un casino/ruleta.sh~",
+    "BASH/Proyecto2_Desafiando la ruleta de un casino/4913",
+    "BASH/IMAGES/Pasted image 20240801105354.png",
+    "BASH/Proyecto2_Desafiando la ruleta de un casino/0.Comienzo.md",
+    "BASH/Proyecto2_Desafiando la ruleta de un casino/ruleta.sh",
     "BASH/Proyecto1_Creando un buscador/htbmachines.sh~",
+    "BASH/Proyecto1_Creando un buscador/bundle_tmp.js",
+    "Kitty/Usos.md",
+    "BASH/Proyecto1_Creando un buscador/0.Comienzo.md",
     "BASH/Proyecto1_Creando un buscador/IMAGES/Pasted image 20240731012653.png",
     "BASH/Proyecto1_Creando un buscador/IMAGES/Pasted image 20240731012621.png",
     "BASH/Proyecto1_Creando un buscador/IMAGES/Pasted image 20240731005410.png",
     "BASH/Proyecto1_Creando un buscador/IMAGES/Pasted image 20240731005330.png",
     "BASH/Proyecto1_Creando un buscador/IMAGES/Pasted image 20240731004018.png",
-    "Linux/3.Permisos.md",
-    "BASH/Proyecto1_Creando un buscador/bundle_tmp.js",
     "BASH/Proyecto1_Creando un buscador/bundle.js~",
     "BASH/Proyecto1_Creando un buscador/bundle.js",
-    "BASH/Proyecto1_Creando un buscador/0.Comienzo.md",
     "BASH/Proyecto1_Creando un buscador/IMAGES/Pasted image 20240727213914.png",
-    "BASH/0.Básicos.md",
     "BASH/Proyecto1_Creando un buscador/htbmachines.sh",
-    "BASH/Proyecto2_Desafiando la ruleta de un casino/0.Comienzo.md",
     "BASH/Proyecto2_Desafiando la ruleta de un casino/IMAGES",
     "BASH/Proyecto2_Desafiando la ruleta de un casino",
-    "Linux/4. Estructura de directorios del sistema.md",
-    "BASH/Proyecto1_Creando un buscador/IMAGES",
-    "BASH/Proyecto1_Creando un buscador",
-    "Linux/0.Varios.md",
-    "Linux/10.Git y Github.md",
     "Linux/IMAGES/Pasted image 20240727154226.png",
     "Linux/IMAGES/Pasted image 20240727153854.png",
     "Linux/IMAGES/Pasted image 20240727153820.png",
-    "Linux/IMAGES/Pasted image 20240727153735.png",
-    "Linux/9.Tareas Cron.md",
-    "Linux/8.SSH.md",
-    "Linux/7.Netcat y Ncat.md",
-    "Linux/6.Búsquedas a nivel de sistema.md",
-    "Linux/1.Control del flujo stderr-stdout, operadores y procesos en segundo plano.md",
-    "Kitty/Usos.md",
-    "PDFS/7z2407-linux-x64.tar.xz",
-    "NVIM/Atajos.md",
-    "Linux/5.Temux.md",
-    "Linux/2.Descriptores de archivo.md",
     "sortspec.md",
     "sortspec 1.md",
     "ENLACES.md",

@@ -86,6 +86,7 @@ function getYoutubeLink(){
     echo -e "\n ${purpleColour}[+] ${grayColour}El tutorial para esta máquina está en el siguiente enlace: ${yellowColour}$youtubeLink ${endColour}"
 
   else
+
     echo -e "\n ${redColour}[!] ${grayColour}la máquina $machineName no existe ${endColour}"
   fi
 
